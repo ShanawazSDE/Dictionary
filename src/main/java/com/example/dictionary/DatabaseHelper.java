@@ -5,7 +5,7 @@ import javafx.collections.ObservableList;
 import javax.xml.transform.Result;
 import java.sql.*;
 public class DatabaseHelper {
-    private static final String url = "jdbc:mysql://localhost:3306/dictionary";
+    private static final String url = "jdbc:mysql://YOUR_HOST_NAME:YOUR_PORT_NUMBER/DATABASE_NAME";//to know these variables open my sql workbench select database and then manage databases
     private static final String user = "root";
     private static final String password = "mySqlLqsym";
 
